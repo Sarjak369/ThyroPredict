@@ -1,0 +1,184 @@
+2025-01-21/10:04:40		Received input data: {'age': 35, 'sex': 'M', 'on_thyroxine': 't', 'query_on_thyroxine': 'f', 'on_antithyroid_medication': 'f', 'sick': 'f', 'pregnant': 'f', 'thyroid_surgery': 'f', 'I131_treatment': 'f', 'query_hypothyroid': 'f', 'query_hyperthyroid': 'f', 'lithium': 'f', 'goitre': 'f', 'tumor': 'f', 'hypopituitary': 'f', 'psych': 'f', 'TSH_measured': 1, 'TSH': 2.5, 'T3_measured': 1, 'T3': 2.0, 'TT4_measured': 1, 'TT4': 110.0, 'T4U_measured': 1, 'T4U': 1.2, 'FTI_measured': 1, 'FTI': 95.0, 'TBG_measured': 0, 'TBG': 0.0, 'referral_source': 'SVI'}
+2025-01-21/10:04:40		Entered the load_model method of the File_Operation class
+2025-01-21/10:04:40		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2025-01-21/10:04:40		Error during prediction: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- FTI_measured
+- T3_measured
+- T4U_measured
+- TBG
+- TBG_measured
+- ...
+Feature names seen at fit time, yet now missing:
+- referral_source_STMW
+- referral_source_SVHC
+- referral_source_SVHD
+- referral_source_SVI
+- referral_source_other
+
+2025-01-21/10:08:23		Received input data: {'age': 35, 'sex': 'M', 'on_thyroxine': 't', 'query_on_thyroxine': 'f', 'on_antithyroid_medication': 'f', 'sick': 'f', 'pregnant': 'f', 'thyroid_surgery': 'f', 'I131_treatment': 'f', 'query_hypothyroid': 'f', 'query_hyperthyroid': 'f', 'lithium': 'f', 'goitre': 'f', 'tumor': 'f', 'hypopituitary': 'f', 'psych': 'f', 'TSH_measured': 1, 'TSH': 2.5, 'T3_measured': 1, 'T3': 2.0, 'TT4_measured': 1, 'TT4': 110.0, 'T4U_measured': 1, 'T4U': 1.2, 'FTI_measured': 1, 'FTI': 95.0, 'TBG_measured': 0, 'TBG': 0.0, 'referral_source': 'SVI'}
+2025-01-21/10:08:23		Entered the load_model method of the File_Operation class
+2025-01-21/10:08:23		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2025-01-21/10:08:23		Error during prediction: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- TSH
+
+2025-01-21/10:13:13		Received input data: {'age': 35, 'sex': 'M', 'on_thyroxine': 't', 'query_on_thyroxine': 'f', 'on_antithyroid_medication': 'f', 'sick': 'f', 'pregnant': 'f', 'thyroid_surgery': 'f', 'I131_treatment': 'f', 'query_hypothyroid': 'f', 'query_hyperthyroid': 'f', 'lithium': 'f', 'goitre': 'f', 'tumor': 'f', 'hypopituitary': 'f', 'psych': 'f', 'TSH_measured': 1, 'TSH': 2.5, 'T3_measured': 1, 'T3': 2.0, 'TT4_measured': 1, 'TT4': 110.0, 'T4U_measured': 1, 'T4U': 1.2, 'FTI_measured': 1, 'FTI': 95.0, 'TBG_measured': 0, 'TBG': 0.0, 'referral_source': 'SVI'}
+2025-01-21/10:13:13		Entered the load_model method of the File_Operation class
+2025-01-21/10:13:13		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2025-01-21/10:13:13		Error during prediction: The feature names should match those that were passed during fit.
+Feature names must be in the same order as they were in fit.
+
+2025-01-21/10:19:48		Received input data: {'age': 35, 'sex': 'M', 'on_thyroxine': 't', 'query_on_thyroxine': 'f', 'on_antithyroid_medication': 'f', 'sick': 'f', 'pregnant': 'f', 'thyroid_surgery': 'f', 'I131_treatment': 'f', 'query_hypothyroid': 'f', 'query_hyperthyroid': 'f', 'lithium': 'f', 'goitre': 'f', 'tumor': 'f', 'hypopituitary': 'f', 'psych': 'f', 'TSH_measured': 1, 'TSH': 2.5, 'T3_measured': 1, 'T3': 2.0, 'TT4_measured': 1, 'TT4': 110.0, 'T4U_measured': 1, 'T4U': 1.2, 'FTI_measured': 1, 'FTI': 95.0, 'TBG_measured': 0, 'TBG': 0.0, 'referral_source': 'SVI'}
+2025-01-21/10:19:48		Entered the load_model method of the File_Operation class
+2025-01-21/10:19:48		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2025-01-21/10:19:48		Error during prediction: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- TBG
+Feature names seen at fit time, yet now missing:
+- referral_source_STMW
+- referral_source_SVHC
+- referral_source_SVHD
+- referral_source_other
+
+2025-01-21/10:21:05		Received input data: {'age': 45, 'sex': 'M', 'on_thyroxine': 't', 'query_on_thyroxine': 'f', 'on_antithyroid_medication': 'f', 'sick': 'f', 'pregnant': 'f', 'thyroid_surgery': 'f', 'I131_treatment': 'f', 'query_hypothyroid': 'f', 'query_hyperthyroid': 'f', 'lithium': 'f', 'goitre': 'f', 'tumor': 'f', 'hypopituitary': 'f', 'psych': 'f', 'T3': 2.1, 'TT4': 120.0, 'T4U': 1.2, 'FTI': 90.0, 'referral_source': 'SVI'}
+2025-01-21/10:21:05		Entered the load_model method of the File_Operation class
+2025-01-21/10:21:05		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2025-01-21/10:21:05		Error during prediction: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- referral_source_STMW
+- referral_source_SVHC
+- referral_source_SVHD
+- referral_source_other
+
+2025-01-21/10:21:57		Received input data: {'age': 45, 'sex': 'M', 'on_thyroxine': 't', 'query_on_thyroxine': 'f', 'on_antithyroid_medication': 'f', 'sick': 'f', 'pregnant': 'f', 'thyroid_surgery': 'f', 'I131_treatment': 'f', 'query_hypothyroid': 'f', 'query_hyperthyroid': 'f', 'lithium': 'f', 'goitre': 'f', 'tumor': 'f', 'hypopituitary': 'f', 'psych': 'f', 'T3': 2.1, 'TT4': 120.0, 'T4U': 1.2, 'FTI': 90.0, 'referral_source_SVI': 1, 'referral_source_SVHD': 0, 'referral_source_SVHC': 0, 'referral_source_STMW': 0, 'referral_source_other': 0}
+2025-01-21/10:21:57		Error during prediction: 'referral_source'
+2025-01-21/10:24:39		Received input data: {'age': 45, 'sex': 'M', 'on_thyroxine': 't', 'query_on_thyroxine': 'f', 'on_antithyroid_medication': 'f', 'sick': 'f', 'pregnant': 'f', 'thyroid_surgery': 'f', 'I131_treatment': 'f', 'query_hypothyroid': 'f', 'query_hyperthyroid': 'f', 'lithium': 'f', 'goitre': 'f', 'tumor': 'f', 'hypopituitary': 'f', 'psych': 'f', 'T3': 2.1, 'TT4': 120.0, 'T4U': 1.2, 'FTI': 90.0, 'referral_source': 'SVI'}
+2025-01-21/10:24:39		Entered the load_model method of the File_Operation class
+2025-01-21/10:24:39		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2025-01-21/10:24:39		Error during prediction: The feature names should match those that were passed during fit.
+Feature names must be in the same order as they were in fit.
+
+2025-01-21/10:29:46		Received input data: {'age': 45, 'sex': 'M', 'on_thyroxine': 't', 'query_on_thyroxine': 'f', 'on_antithyroid_medication': 'f', 'sick': 'f', 'pregnant': 'f', 'thyroid_surgery': 'f', 'I131_treatment': 'f', 'query_hypothyroid': 'f', 'query_hyperthyroid': 'f', 'lithium': 'f', 'goitre': 'f', 'tumor': 'f', 'hypopituitary': 'f', 'psych': 'f', 'T3': 2.1, 'TT4': 120.0, 'T4U': 1.2, 'FTI': 90.0, 'referral_source': 'SVI'}
+2025-01-21/10:29:46		Entered the load_model method of the File_Operation class
+2025-01-21/10:29:46		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2025-01-21/10:29:46		Error during prediction: could not convert string to float: 'M'
+2025-01-21/10:30:58		Received input data: {'age': 45, 'sex': 'M', 'on_thyroxine': 't', 'query_on_thyroxine': 'f', 'on_antithyroid_medication': 'f', 'sick': 'f', 'pregnant': 'f', 'thyroid_surgery': 'f', 'I131_treatment': 'f', 'query_hypothyroid': 'f', 'query_hyperthyroid': 'f', 'lithium': 'f', 'goitre': 'f', 'tumor': 'f', 'hypopituitary': 'f', 'psych': 'f', 'T3': 2.1, 'TT4': 120.0, 'T4U': 1.2, 'FTI': 90.0, 'referral_source': 'SVI'}
+2025-01-21/10:30:58		Entered the load_model method of the File_Operation class
+2025-01-21/10:30:58		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2025-01-21/10:30:58		Determined cluster: 0
+2025-01-21/10:30:58		Entered the load_model method of the File_Operation class
+2025-01-21/10:30:58		Model File KNN0 loaded. Exited the load_model method of the Model_Finder class
+2025-01-21/10:30:58		Prediction result: 1
+2025-01-21/10:31:54		Received input data: {'age': 45, 'sex': 'M', 'on_thyroxine': 't', 'query_on_thyroxine': 'f', 'on_antithyroid_medication': 'f', 'sick': 'f', 'pregnant': 'f', 'thyroid_surgery': 'f', 'I131_treatment': 'f', 'query_hypothyroid': 'f', 'query_hyperthyroid': 'f', 'lithium': 'f', 'goitre': 'f', 'tumor': 'f', 'hypopituitary': 'f', 'psych': 'f', 'T3': 2.1, 'TT4': 120.0, 'T4U': 1.2, 'FTI': 90.0, 'referral_source': 'SVI'}
+2025-01-21/10:31:54		Entered the load_model method of the File_Operation class
+2025-01-21/10:31:54		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2025-01-21/10:31:54		Determined cluster: 0
+2025-01-21/10:31:54		Entered the load_model method of the File_Operation class
+2025-01-21/10:31:54		Model File KNN0 loaded. Exited the load_model method of the Model_Finder class
+2025-01-21/10:31:54		Prediction result: 1
+2025-01-21/10:42:58		Received input data: {'age': 45, 'sex': 'M', 'on_thyroxine': 't', 'query_on_thyroxine': 'f', 'on_antithyroid_medication': 'f', 'sick': 'f', 'pregnant': 'f', 'thyroid_surgery': 'f', 'I131_treatment': 'f', 'query_hypothyroid': 'f', 'query_hyperthyroid': 'f', 'lithium': 'f', 'goitre': 'f', 'tumor': 'f', 'hypopituitary': 'f', 'psych': 'f', 'T3': 2.1, 'TT4': 120.0, 'T4U': 1.2, 'FTI': 90.0, 'referral_source': 'SVI'}
+2025-01-21/10:42:58		Entered the load_model method of the File_Operation class
+2025-01-21/10:42:58		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2025-01-21/10:42:58		Determined cluster: 0
+2025-01-21/10:42:58		Entered the load_model method of the File_Operation class
+2025-01-21/10:42:58		Model File KNN0 loaded. Exited the load_model method of the Model_Finder class
+2025-01-21/10:42:59		Prediction result: 1
+2025-01-21/10:44:34		Received input data: {'age': 24, 'sex': 'M', 'on_thyroxine': 't', 'query_on_thyroxine': 't', 'on_antithyroid_medication': 't', 'sick': 'f', 'pregnant': 'f', 'thyroid_surgery': 'f', 'I131_treatment': 'f', 'query_hypothyroid': 'f', 'query_hyperthyroid': 'f', 'lithium': 'f', 'goitre': 'f', 'tumor': 'f', 'hypopituitary': 'f', 'psych': 't', 'TSH': 0, 'T3': 24, 'TT4': 1.6, 'T4U': 2.8, 'FTI': 0, 'TBG': 0, 'referral_source': 'SVI'}
+2025-01-21/10:44:34		Entered the load_model method of the File_Operation class
+2025-01-21/10:44:34		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2025-01-21/10:44:34		Determined cluster: 1
+2025-01-21/10:44:34		Entered the load_model method of the File_Operation class
+2025-01-21/10:44:34		Model File KNN1 loaded. Exited the load_model method of the Model_Finder class
+2025-01-21/10:44:34		Prediction result: 2
+2025-01-21/10:44:37		Received input data: {'age': 24, 'sex': 'M', 'on_thyroxine': 't', 'query_on_thyroxine': 't', 'on_antithyroid_medication': 't', 'sick': 'f', 'pregnant': 'f', 'thyroid_surgery': 'f', 'I131_treatment': 'f', 'query_hypothyroid': 'f', 'query_hyperthyroid': 'f', 'lithium': 'f', 'goitre': 'f', 'tumor': 'f', 'hypopituitary': 'f', 'psych': 't', 'TSH': 0, 'T3': 24, 'TT4': 1.6, 'T4U': 2.8, 'FTI': 0, 'TBG': 0, 'referral_source': 'SVI'}
+2025-01-21/10:44:37		Entered the load_model method of the File_Operation class
+2025-01-21/10:44:37		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2025-01-21/10:44:37		Determined cluster: 1
+2025-01-21/10:44:37		Entered the load_model method of the File_Operation class
+2025-01-21/10:44:37		Model File KNN1 loaded. Exited the load_model method of the Model_Finder class
+2025-01-21/10:44:37		Prediction result: 2
+2025-01-21/10:46:56		Received input data: {'age': 45, 'sex': 'M', 'on_thyroxine': 't', 'query_on_thyroxine': 'f', 'on_antithyroid_medication': 'f', 'sick': 'f', 'pregnant': 'f', 'thyroid_surgery': 'f', 'I131_treatment': 'f', 'query_hypothyroid': 'f', 'query_hyperthyroid': 'f', 'lithium': 'f', 'goitre': 'f', 'tumor': 'f', 'hypopituitary': 'f', 'psych': 'f', 'T3': 2.1, 'TT4': 120.0, 'T4U': 1.2, 'FTI': 90.0, 'referral_source': 'SVI'}
+2025-01-21/10:46:56		Entered the load_model method of the File_Operation class
+2025-01-21/10:46:56		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2025-01-21/10:46:56		Determined cluster: 0
+2025-01-21/10:46:56		Entered the load_model method of the File_Operation class
+2025-01-21/10:46:56		Model File KNN0 loaded. Exited the load_model method of the Model_Finder class
+2025-01-21/10:46:57		Prediction result: 1
+2025-01-21/10:47:04		Received input data: {'age': 24, 'sex': 'M', 'on_thyroxine': 't', 'query_on_thyroxine': 't', 'on_antithyroid_medication': 't', 'sick': 'f', 'pregnant': 'f', 'thyroid_surgery': 'f', 'I131_treatment': 'f', 'query_hypothyroid': 'f', 'query_hyperthyroid': 'f', 'lithium': 'f', 'goitre': 'f', 'tumor': 'f', 'hypopituitary': 'f', 'psych': 't', 'TSH': 0, 'T3': 24, 'TT4': 1.6, 'T4U': 2.8, 'FTI': 0, 'TBG': 0, 'referral_source': 'SVI'}
+2025-01-21/10:47:04		Entered the load_model method of the File_Operation class
+2025-01-21/10:47:04		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2025-01-21/10:47:04		Determined cluster: 1
+2025-01-21/10:47:04		Entered the load_model method of the File_Operation class
+2025-01-21/10:47:04		Model File KNN1 loaded. Exited the load_model method of the Model_Finder class
+2025-01-21/10:47:04		Prediction result: 2
+2025-01-21/10:47:10		Received input data: {'age': 24, 'sex': 'M', 'on_thyroxine': 't', 'query_on_thyroxine': 't', 'on_antithyroid_medication': 't', 'sick': 'f', 'pregnant': 'f', 'thyroid_surgery': 'f', 'I131_treatment': 'f', 'query_hypothyroid': 'f', 'query_hyperthyroid': 'f', 'lithium': 'f', 'goitre': 'f', 'tumor': 'f', 'hypopituitary': 'f', 'psych': 't', 'TSH': 0, 'T3': 24, 'TT4': 1.6, 'T4U': 2.8, 'FTI': 0, 'TBG': 0, 'referral_source': 'SVI'}
+2025-01-21/10:47:10		Entered the load_model method of the File_Operation class
+2025-01-21/10:47:10		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2025-01-21/10:47:10		Determined cluster: 1
+2025-01-21/10:47:10		Entered the load_model method of the File_Operation class
+2025-01-21/10:47:10		Model File KNN1 loaded. Exited the load_model method of the Model_Finder class
+2025-01-21/10:47:10		Prediction result: 2
+2025-01-21/10:47:12		Received input data: {'age': 24, 'sex': 'M', 'on_thyroxine': 't', 'query_on_thyroxine': 't', 'on_antithyroid_medication': 't', 'sick': 'f', 'pregnant': 'f', 'thyroid_surgery': 'f', 'I131_treatment': 'f', 'query_hypothyroid': 'f', 'query_hyperthyroid': 'f', 'lithium': 'f', 'goitre': 'f', 'tumor': 'f', 'hypopituitary': 'f', 'psych': 't', 'TSH': 0, 'T3': 24, 'TT4': 1.6, 'T4U': 2.8, 'FTI': 0, 'TBG': 0, 'referral_source': 'SVI'}
+2025-01-21/10:47:12		Entered the load_model method of the File_Operation class
+2025-01-21/10:47:12		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2025-01-21/10:47:12		Determined cluster: 1
+2025-01-21/10:47:12		Entered the load_model method of the File_Operation class
+2025-01-21/10:47:12		Model File KNN1 loaded. Exited the load_model method of the Model_Finder class
+2025-01-21/10:47:12		Prediction result: 2
+2025-01-21/10:54:03		Received input data: {'age': 44, 'sex': 'M', 'on_thyroxine': 'f', 'query_on_thyroxine': 'f', 'on_antithyroid_medication': 'f', 'sick': 'f', 'pregnant': 'f', 'thyroid_surgery': 'f', 'I131_treatment': 'f', 'query_hypothyroid': 'f', 'query_hyperthyroid': 'f', 'lithium': 'f', 'goitre': 'f', 'tumor': 'f', 'hypopituitary': 'f', 'psych': 'f', 'TSH': 45, 'T3': 1.4, 'TT4': 39, 'T4U': 1.16, 'FTI': 33, 'TBG': 0, 'referral_source': 'SVI'}
+2025-01-21/10:54:03		Entered the load_model method of the File_Operation class
+2025-01-21/10:54:03		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2025-01-21/10:54:03		Determined cluster: 1
+2025-01-21/10:54:03		Entered the load_model method of the File_Operation class
+2025-01-21/10:54:03		Model File KNN1 loaded. Exited the load_model method of the Model_Finder class
+2025-01-21/10:54:03		Prediction result: 2
+2025-01-21/10:56:49		Received input data: {'age': 61, 'sex': 'F', 'on_thyroxine': 'f', 'query_on_thyroxine': 'f', 'on_antithyroid_medication': 'f', 'sick': 'f', 'pregnant': 'f', 'thyroid_surgery': 'f', 'I131_treatment': 'f', 'query_hypothyroid': 'f', 'query_hyperthyroid': 'f', 'lithium': 'f', 'goitre': 't', 'tumor': 'f', 'hypopituitary': 'f', 'psych': 'f', 'TSH': 0.99, 'T3': 1.5, 'TT4': 63, 'T4U': 0.56, 'FTI': 113, 'TBG': 0, 'referral_source': 'SVI'}
+2025-01-21/10:56:49		Entered the load_model method of the File_Operation class
+2025-01-21/10:56:49		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2025-01-21/10:56:49		Determined cluster: 0
+2025-01-21/10:56:49		Entered the load_model method of the File_Operation class
+2025-01-21/10:56:49		Model File KNN0 loaded. Exited the load_model method of the Model_Finder class
+2025-01-21/10:56:49		Prediction result: 1
+2025-01-21/11:00:14		Received input data: {'age': 61, 'sex': 'F', 'on_thyroxine': 'f', 'query_on_thyroxine': 'f', 'on_antithyroid_medication': 'f', 'sick': 'f', 'pregnant': 'f', 'thyroid_surgery': 'f', 'I131_treatment': 'f', 'query_hypothyroid': 'f', 'query_hyperthyroid': 'f', 'lithium': 'f', 'goitre': 't', 'tumor': 'f', 'hypopituitary': 'f', 'psych': 'f', 'TSH': 0.99, 'T3': 1.5, 'TT4': 63, 'T4U': 0.56, 'FTI': 113, 'TBG': 0, 'referral_source': 'SVI'}
+2025-01-21/11:00:14		Entered the load_model method of the File_Operation class
+2025-01-21/11:00:14		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2025-01-21/11:00:14		Determined cluster: 0
+2025-01-21/11:00:14		Entered the load_model method of the File_Operation class
+2025-01-21/11:00:14		Model File KNN0 loaded. Exited the load_model method of the Model_Finder class
+2025-01-21/11:00:14		Prediction result: 1
+2025-01-21/11:01:22		Received input data: {'age': 61, 'sex': 'F', 'on_thyroxine': 'f', 'query_on_thyroxine': 'f', 'on_antithyroid_medication': 'f', 'sick': 'f', 'pregnant': 'f', 'thyroid_surgery': 'f', 'I131_treatment': 'f', 'query_hypothyroid': 'f', 'query_hyperthyroid': 'f', 'lithium': 'f', 'goitre': 't', 'tumor': 'f', 'hypopituitary': 'f', 'psych': 'f', 'T3': 1.5, 'TT4': 63.0, 'T4U': 0.56, 'FTI': 113.0, 'referral_source': 'SVI'}
+2025-01-21/11:01:22		Entered the load_model method of the File_Operation class
+2025-01-21/11:01:22		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2025-01-21/11:01:22		Determined cluster: 0
+2025-01-21/11:01:22		Entered the load_model method of the File_Operation class
+2025-01-21/11:01:22		Model File KNN0 loaded. Exited the load_model method of the Model_Finder class
+2025-01-21/11:01:22		Prediction result: 1
+2025-01-21/11:03:51		Received input data: {'age': 24, 'sex': 'F', 'on_thyroxine': 'f', 'query_on_thyroxine': 'f', 'on_antithyroid_medication': 'f', 'sick': 'f', 'pregnant': 'f', 'thyroid_surgery': 'f', 'I131_treatment': 'f', 'query_hypothyroid': 'f', 'query_hyperthyroid': 'f', 'lithium': 'f', 'goitre': 't', 'tumor': 'f', 'hypopituitary': 'f', 'psych': 'f', 'TSH': 0.99, 'T3': 1.5, 'TT4': 63, 'T4U': 0.56, 'FTI': 113, 'TBG': 0, 'referral_source': 'SVI'}
+2025-01-21/11:03:51		Entered the load_model method of the File_Operation class
+2025-01-21/11:03:51		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2025-01-21/11:03:51		Determined cluster: 0
+2025-01-21/11:03:51		Entered the load_model method of the File_Operation class
+2025-01-21/11:03:51		Model File KNN0 loaded. Exited the load_model method of the Model_Finder class
+2025-01-21/11:03:51		Prediction result: 1
+2025-01-21/11:19:12		Received input data: {'age': 70, 'sex': 'F', 'on_thyroxine': 'f', 'query_on_thyroxine': 'f', 'on_antithyroid_medication': 'f', 'sick': 't', 'pregnant': 'f', 'thyroid_surgery': 'f', 'I131_treatment': 'f', 'query_hypothyroid': 'f', 'query_hyperthyroid': 'f', 'lithium': 'f', 'goitre': 'f', 'tumor': 'f', 'hypopituitary': 'f', 'psych': 'f', 'TSH': 1.1, 'T3': 1.7, 'TT4': 95, 'T4U': 0.68, 'FTI': 140, 'TBG': 0, 'referral_source': 'SVI'}
+2025-01-21/11:19:12		Entered the load_model method of the File_Operation class
+2025-01-21/11:19:12		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2025-01-21/11:19:12		Determined cluster: 2
+2025-01-21/11:19:12		Entered the load_model method of the File_Operation class
+2025-01-21/11:19:12		Model File KNN2 loaded. Exited the load_model method of the Model_Finder class
+2025-01-21/11:19:12		Prediction result: 1
+2025-01-22/12:15:56		Received input data: {'age': 24, 'sex': 'M', 'on_thyroxine': 'f', 'query_on_thyroxine': 'f', 'on_antithyroid_medication': 'f', 'sick': 'f', 'pregnant': 'f', 'thyroid_surgery': 'f', 'I131_treatment': 'f', 'query_hypothyroid': 'f', 'query_hyperthyroid': 'f', 'lithium': 'f', 'goitre': 'f', 'tumor': 'f', 'hypopituitary': 'f', 'psych': 'f', 'TSH': 0, 'T3': 0, 'TT4': 50, 'T4U': 0, 'FTI': 100, 'TBG': 0, 'referral_source': 'other'}
+2025-01-22/12:15:56		Entered the load_model method of the File_Operation class
+2025-01-22/12:15:56		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2025-01-22/12:15:56		Determined cluster: 0
+2025-01-22/12:15:56		Entered the load_model method of the File_Operation class
+2025-01-22/12:15:56		Model File KNN0 loaded. Exited the load_model method of the Model_Finder class
+2025-01-22/12:15:56		Prediction result: 1
+2025-02-06/20:40:22		Received input data: {'age': 24, 'sex': 'M', 'on_thyroxine': 'f', 'query_on_thyroxine': 'f', 'on_antithyroid_medication': 'f', 'sick': 'f', 'pregnant': 'f', 'thyroid_surgery': 'f', 'I131_treatment': 'f', 'query_hypothyroid': 'f', 'query_hyperthyroid': 'f', 'lithium': 'f', 'goitre': 'f', 'tumor': 'f', 'hypopituitary': 'f', 'psych': 'f', 'TSH': 1.8, 'T3': 71, 'TT4': 1.16, 'T4U': 33, 'FTI': 0, 'TBG': 0, 'referral_source': 'SVI'}
+2025-02-06/20:40:22		Entered the load_model method of the File_Operation class
+2025-02-06/20:40:22		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2025-02-06/20:40:22		Determined cluster: 1
+2025-02-06/20:40:22		Entered the load_model method of the File_Operation class
+2025-02-06/20:40:22		Model File KNN1 loaded. Exited the load_model method of the Model_Finder class
+2025-02-06/20:40:22		Prediction result: 2
