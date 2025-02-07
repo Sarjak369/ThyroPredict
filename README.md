@@ -112,26 +112,28 @@ The project follows a modular architecture, breaking down the problem into small
 
 ## Code Structure
 
-- **Data Ingestion
-- **Data Preprocessing
-- **Model Selection
-- **Model Tuning
-- **Prediction
-- **Logging Framework
-- **Deployment
-- **Model Retraining
+- Data Ingestion
+- Data Preprocessing
+- Model Selection
+- Model Tuning
+- Prediction
+- Logging Framework
+- Deployment
+- Model Retraining
 
---
+---
 
 ## 🛠️ Installation
-1. Clone the repository:
+
+Clone the repository:
    ```bash
    git clone https://github.com/yourusername/ThyroPredict.git
    cd ThyroPredict
+   ```
 
--- 
 
-Empowering healthcare with AI-driven diagnostics! ✨
+
+## Empowering healthcare with AI-driven diagnostics! ✨
 
 
 
